@@ -10,5 +10,4 @@ s_times = ["08:00","09:30","10:00","10:30","11:00","11:30","12:00"]
 violation_dropdown = widgets.Dropdown(options=["No", "Yes"],value="No",description="Violation:")
 
 # Time dropdown
-time_dropdown = widgets.Dropdown(options=snap_times,description="Time:"
-)
+time_dropdown = widgets.Dropdown(options=snap_times,description="Time:")
