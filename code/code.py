@@ -13,8 +13,7 @@ violation_dropdown = widgets.Dropdown(options=["No", "Yes"],value="No",descripti
 time_dropdown = widgets.Dropdown(options=snap_times,description="Time:")
 
 # Language dropdown
-language_dropdown = widgets.Dropdown(
-    options=[
+language_dropdown = widgets.Dropdown(options=[
         "Hindi - India",
         "Marathi - India",
         "Bengali - Bangladesh",
