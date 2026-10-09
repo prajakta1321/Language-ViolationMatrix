@@ -27,5 +27,4 @@ language_dropdown = widgets.Dropdown(options=[
         "Malay - Malaysia",
         "Korean - South Korea"
     ],
-    description="Language:"
-)
+    description="Language:")
