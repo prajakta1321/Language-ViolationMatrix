@@ -14,15 +14,6 @@ time_dropdown = widgets.Dropdown(options=snap_times,description="Time:")
 
 # Language dropdown
 language_dropdown = widgets.Dropdown(options=[
-        "Hindi - India",
-        "Marathi - India",
-        "Bengali - Bangladesh",
-        "Urdu - Pakistan",
-        "Nepali - Nepal",
-        "Sinhala - Sri Lanka",
-        "Tamil - Sri Lanka",
-        "Thai - Thailand",
-        "Vietnamese - Vietnam",
-        "Indonesian - Indonesia",
-        "Malay - Malaysia",
-        "Korean - South Korea"],description="Language:")
+        "Hindi - India","Marathi - India","Bengali - Bangladesh","Urdu - Pakistan","Nepali - Nepal","Sinhala - Sri Lanka","Tamil - Sri Lanka",
+        "Thai - Thailand","Vietnamese - Vietnam","Indonesian - Indonesia","Malay - Malaysia","Korean - South Korea"
+        ],description="Language:")
