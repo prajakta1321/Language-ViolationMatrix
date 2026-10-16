@@ -19,5 +19,4 @@ language_dropdown = widgets.Dropdown(options=[
         ],description="Language:")
 
 # Number of Years dropdown
-years_dropdown = widgets.Dropdown(
-    options=[1,2,3,4,5,6,7,8,9,10,11,12],description="No. of Years:")
+years_dropdown = widgets.Dropdown(options=[1,2,3,4,5,6,7,8,9,10,11,12],description="No. of Years:")
