@@ -21,6 +21,5 @@ language_dropdown = widgets.Dropdown(options=[
 # Number of Years dropdown
 years_dropdown = widgets.Dropdown(options=[1,2,3,4,5,6,7,8,9,10,11,12],description="No. of Years:")
 
-add_button = widgets.Button(
-    description="Add Violation",
+add_button = widgets.Button(description="Add Violation",
     button_style="primary")
