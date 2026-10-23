@@ -24,4 +24,4 @@ years_dropdown = widgets.Dropdown(options=[1,2,3,4,5,6,7,8,9,10,11,12],descripti
 add_button = widgets.Button(description="Add Violation",button_style="primary")
 complete_button = widgets.Button(description="Complete Table")
 
-table_output = widgets.Output()
+table_output = widgets.Output() message_output = widgets.Output()
