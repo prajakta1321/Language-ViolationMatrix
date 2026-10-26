@@ -26,3 +26,5 @@ complete_button = widgets.Button(description="Complete Table")
 
 table_output = widgets.Output() 
 message_output = widgets.Output()
+
+violations = []
