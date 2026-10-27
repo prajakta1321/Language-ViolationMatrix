@@ -30,3 +30,4 @@ message_output = widgets.Output()
 violations = []
 
 def create_current_table():
+            rows = []
