@@ -31,3 +31,5 @@ violations = []
 
 def create_current_table():
             rows = []
+            for time in snap_times:
+                    
