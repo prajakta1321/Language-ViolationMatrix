@@ -34,3 +34,4 @@ def create_current_table():
             for time in s_times: 
                     time_violations = [v for v in violations if v["Time"] == time]                    
                     if time_violations:
+                            rows.extend(time_violations)
