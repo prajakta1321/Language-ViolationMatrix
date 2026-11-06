@@ -36,3 +36,9 @@ def create_current_table():
                     if time_violations:
                             rows.extend(time_violations)
             else:
+                    rows.append({
+                "Time": time,
+                "Language": "-",
+                "No. of Years": "-",
+                "Violation": "No"
+            })
