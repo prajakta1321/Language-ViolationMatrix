@@ -38,3 +38,5 @@ def create_current_table():
             else:
                     rows.append({"Time": time,"Language": "-","No. of Years": "-","Violation": "No"})
             return pd.DataFrame(rows)
+
+def show_table():
