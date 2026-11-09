@@ -37,3 +37,4 @@ def create_current_table():
                             rows.extend(time_violations)
             else:
                     rows.append({"Time": time,"Language": "-","No. of Years": "-","Violation": "No"})
+            return pd.DataFrame(rows)
