@@ -40,3 +40,4 @@ def create_current_table():
             return pd.DataFrame(rows)
 
 def show_table():
+        with table_output:
