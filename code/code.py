@@ -43,3 +43,4 @@ def show_table():
         with table_output:
                         clear_output()
                         current_table = create_current_table()
+                        display(current_table)
