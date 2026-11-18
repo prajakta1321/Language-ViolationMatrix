@@ -44,3 +44,5 @@ def show_table():
                         clear_output()
                         current_table = create_current_table()
                         display(current_table)
+
+def add_violation(button):
