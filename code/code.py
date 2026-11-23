@@ -48,3 +48,4 @@ def show_table():
 def add_violation(button):
         with message_output:
                         clear_output()
+                        if violation_dropdown.value != "Yes":
