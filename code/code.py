@@ -47,3 +47,4 @@ def show_table():
 
 def add_violation(button):
         with message_output:
+                        clear_output()
