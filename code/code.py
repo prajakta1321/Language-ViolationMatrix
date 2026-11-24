@@ -49,4 +49,5 @@ def add_violation(button):
         with message_output:
                         clear_output()
                         if violation_dropdown.value != "Yes":
-                                            print("Select 'Yes' under Violation before adding a violation.")
+                                print("Select 'Yes' under Violation before adding a violation.")
+                                return
