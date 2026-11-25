@@ -53,3 +53,6 @@ def add_violation(button):
                                 return
                         # Get selected language
                         language = language_dropdown.value
+                        
+                        # Get selected number of years
+                        years = years_dropdown.value
