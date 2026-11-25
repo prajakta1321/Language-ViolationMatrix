@@ -51,3 +51,5 @@ def add_violation(button):
                         if violation_dropdown.value != "Yes":
                                 print("Select 'Yes' under Violation before adding a violation.")
                                 return
+                        # Get selected language
+                        language = language_dropdown.value
