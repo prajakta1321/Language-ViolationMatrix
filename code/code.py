@@ -60,6 +60,4 @@ def add_violation(button):
                         violations.append({
             "Time": time_dropdown.value,
             "Language": language,
-            "No. of Years": years,
-            "Violation": "Yes"
-        })
+            "No. of Years": years,"Violation": "Yes"})
